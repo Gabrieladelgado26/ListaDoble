@@ -1,0 +1,35 @@
+/* styles.css */
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.number-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.number-box-1 {
+    background-color: lightblue;
+}
+
+.number-box-2 {
+    background-color: lightgreen;
+}
+
+.number-box-3 {
+    background-color: lightcoral;
+}
+
+/* Agrega estilos para más números según sea necesario */
+
